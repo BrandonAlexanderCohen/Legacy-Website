@@ -1,0 +1,132 @@
+/* Basic Layout */
+
+body {
+  background-color: #0b3f4f;
+    font-family: 'Playfair Display', Times, serif;
+}
+
+header {
+  max-width: 1280px;
+  padding: 0;
+  margin: 15px 5% 0;
+  border: 3px solid #3f3f3f;
+  border-bottom: none;
+}
+
+header img {
+    width: 100%;
+  max-width: 1280px;
+    margin-bottom: -4px
+}
+
+nav {
+  background-color: #3f3f3f;
+}
+
+.navlist {
+    display: inline-block;
+}
+
+nav a:link, a:visited {
+    display: inline-block;
+    font-weight: bold;
+    color: #888;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 16.6666666%;
+    float: left;
+}
+
+section {
+  max-width: 80%;
+  padding: 8px 5% 3px;
+  margin: 0 5% 20px;
+  border: 4px solid #3f3f3f;
+  background-color: #666;
+}
+
+h5 {
+  margin-top: -15px;
+  
+}
+
+p {
+  font-size: .8rem;
+    margin-top: 40px;
+}
+
+
+footer {
+  text-align: center;
+  color: #888;
+  margin: 0 0 20px;
+}
+
+/* Homepage */
+
+.featured {
+  max-width: 100%;
+  padding: 10px 0;
+}
+
+.blog {
+  font-family: 'Playfair Display', Times, serif;
+  color: black;
+}
+
+.blog p {
+   font-size: .8em;
+}
+
+.blog a {
+  text-decoration: none;
+  color: #888;
+}
+
+.blog a:hover {
+  color: #E7E1B1;
+}
+/*About Page */
+
+#about h2 {
+    margin-top: 50px;
+}
+
+.answer {
+  font-size: .8rem;
+    margin-top: 0;
+}
+
+/* CAST */
+#portraits {
+    text-align: center;
+}
+
+#alexandre {
+    text-align: center;
+}
+
+#alexandre, #vance {
+    display: inline;
+}
+
+#alexandre img, #vance img {
+    width: 39%;
+    margin: 20px;
+}
+
+#vance {
+    text-align: center;
+}
+
+/* Pages */
+#page {
+    text-align: center;
+}
+
+/* Archive */
+
+.pages {
+    margin-top: 70px;
+}
